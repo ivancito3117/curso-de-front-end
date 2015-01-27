@@ -1,0 +1,213 @@
+gris_oscuro = #444
+azul = #22BCE0
+naranja =#DD4F24
+grist_text = #7A7A7A
+
+@font-face {
+	font-family: 'icono';
+	src:url('../fonts/icomoon.eot?smpz29');
+	src:url('../fonts/icomoon.eot?#iefixsmpz29') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?smpz29') format('woff'),
+		url('../fonts/icomoon.ttf?smpz29') format('truetype'),
+		url('../fonts/icomoon.svg?smpz29#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a
+    color naranja
+
+body
+    background #E8E8E8
+    color gris_oscuro
+    font-family Arial
+    font-size 16px
+    
+footer
+    background naranja
+    color rgba(255,255,255, 0.5)
+    text-align center
+    
+    h3
+        font-size 14px
+        font-weight normal
+        
+        strong
+            display block
+        
+        .mejor
+            &:before
+            &:after
+                content " - "
+    
+header
+    background gris_oscuro
+    box-shadow 0 5px rgba(0,0,0,0.2)
+    color white
+    overflow hidden
+    padding 0.5em
+    position relative
+    z-index 1
+     
+
+    .logo
+        float left
+        border-right 1px solid azul
+        width 60px
+        
+        img
+            width 52px
+
+    .titular
+        margin 0 80px 0 70px
+        .filtro
+            color azul
+            font-weight bold
+            font-style italic
+            font-size 14px
+            text-decoration none
+            
+        .publica
+            background naranja
+            color white
+            float right
+            font-style italic
+            margin -5px 1em 0 0
+            padding 0.2em 0.5em
+            text-decoration none
+            text-shadow 1px 1px 0px black
+        
+        .titulo
+            font-size 18px
+            font-weight normal
+            margin 0
+            padding 0
+    
+    .usuario
+        position absolute
+        top 10px
+        right 10px
+        
+        .avatar
+            position relative
+            margin 0 1em 0 0
+            z-index 2
+            img
+                border-radius 50%
+                width 50px
+                
+        .flechita
+            display block
+            background naranja
+            color white
+            position absolute
+            right 0
+            top 20px
+            text-align right
+            width 50%
+nav
+    background azul
+    border-left 15px solid white
+    position relative
+    
+    &:before
+        border-bottom 20px solid azul
+        border-left 7px solid white
+        border-top 20px solid azul
+        content ""
+        position absolute
+        top 0
+        left 0
+    
+    .menu
+        height 40px
+        line-height 40px
+        margin 0
+        padding 0
+        text-align left
+        overflow-x auto
+        white-space nowrap
+        
+        li
+            display inline-block
+            
+            a
+                color white
+                display inline-block
+                padding 0 0.2em
+                margin 0 0.5em
+                text-decoration none
+.posts
+    padding 0.5em
+        
+    .post
+        background while
+        border-radius 0 0 0.5em 0.5em 
+        box-shadow 2px 2px 10px rgba(black, 0.5)
+        color gris_text
+        
+        .acciones
+            border-top 3px solid  azul
+            padding 0.5em
+            overflow hidden
+            
+            .datos
+                float right
+                
+                .comentario
+                        background grist_text
+                        border-radius 3px
+                        color white
+                        margin 0 1em 0 0
+                        padding 2px 5px
+                        text-decoration none
+            
+            .votos
+                float left
+                
+                .down
+                .up
+                    text-decoration none
+                    
+                .down
+                    color red
+                
+                .up
+                    color green
+            
+        .descripcion
+             color gris_text
+             
+            .detalles
+                height 160px
+                margin-left 130px
+                
+                .autor
+                    margin 0.5em 0 2em 0
+                    
+                .fecha
+                    float right
+                    margin 0 1em 0 0
+                
+                .tag
+                    background azul
+                    border-radius 0.5em
+                    color white
+                    padding 0.2em 0.5em
+                    text-decoration none
+                    
+                .titulo
+                    color gris_oscuro
+                    font-size 18px
+                    font-style italic
+                    margin 0
+                    padding 0.5em 0.5em 0 0  
+                     
+            .imagen
+                float left
+                margin 0
+                       
+                img
+                    height 160px
+                    vertical-align top
+                    width 120px          
